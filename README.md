@@ -10,6 +10,7 @@ import coffee
         self.role = "Student"
         self.location = "U.S"
         self.major = "Computer Science"
+        self.certificate = "COMPTIA Security+"
         self.working_on = ["YardstickOneGUI", "Discord_Bots", "Flipper_Zero"]
         self.coffee_cup = None
         self.stay = "Strapped"
