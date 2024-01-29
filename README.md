@@ -13,7 +13,6 @@ import coffee
         self.certificate = "COMPTIA Security+"
         self.working_on = ["YardstickOneGUI", "Discord_Bots", "Flipper_Zero"]
         self.coffee_cup = None
-        self.stay = "Strapped"
 
     def refill(self):
         if self.coffee_cup == None:
