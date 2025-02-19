@@ -11,7 +11,7 @@ import coffee
         self.location = "U.S"
         self.major = "Computer Science"
         self.certificate = ["Security+", "Pentest+", "NVAP"]
-        self.working_on = ["YardstickOneGUI", "Web Application Security", "Automation"]
+        self.working_on = ["Radio Hacking", "Web Application Security", "Automation"]
         self.coffee_cup = None
 
     def refill(self):
