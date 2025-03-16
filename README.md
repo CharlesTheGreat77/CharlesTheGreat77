@@ -3,7 +3,7 @@
 ```python
 import coffee
 
-  class Tinkerer:
+  class Pentest:
 
     def __init__(self):
         self.name = "DoobTheGoober"
@@ -19,7 +19,7 @@ import coffee
            coffee.pour(self.coffee_cup)
 
 
-me = Tinkerer()
+me = Pentest()
 me.refill()
 ```
 </p>
