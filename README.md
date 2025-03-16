@@ -1,25 +1,39 @@
 ### Hi there 👋
 
-```python
-import coffee
+```go
+package main
 
-  class Pentest:
+import "fmt"
 
-    def __init__(self):
-        self.name = "DoobTheGoober"
-        self.role = "Student"
-        self.location = "U.S"
-        self.major = "Computer Science"
-        self.certificate = ["Security+", "Pentest+", "NVAP"]
-        self.working_on = ["Radio Hacking", "Web Application Security", "Automation"]
-        self.coffee_cup = None
+type Pentest struct {
+	Name        string
+	Role        string
+	Location    string
+	Major       string
+	Certificates []string
+	WorkingOn   []string
+	CoffeeCup   bool
+}
 
-    def refill(self):
-        if self.coffee_cup == None:
-           coffee.pour(self.coffee_cup)
+func (p *Pentest) Refill() {
+	if !p.CoffeeCup {
+		p.CoffeeCup = true
+		fmt.Println("☕ Coffee refilled. Time to break things (ethically)!")
+	} else {
+		fmt.Println("☕ Fully caffeinated and ready to go!")
+	}
+}
 
+func main() {
+	me := Pentest{
+		Name:        "DoobTheGoober",
+		Role:        "Student",
+		Location:    "U.S",
+		Major:       "Computer Science",
+		Certificates: []string{"Security+", "Pentest+", "NVAP"},
+		WorkingOn:   []string{"Radio Hacking", "Web Application Security", "Automation"},
+	}
 
-me = Pentest()
-me.refill()
+	me.Refill()
+}
 ```
-</p>
